@@ -3,7 +3,7 @@ import gradio as gr
 from google import genai
 
 # Get API key from Render Environment Variables
-API_KEY = os.getenv("Google_API")
+API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable is not set.")
